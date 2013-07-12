@@ -14,9 +14,15 @@ echo "Enter your password for 'sudo' tasks that need to occur"
 read -s password
 echo -E "Thank you! Continuing..."
 
-echo $password | sudo -S apt-get install -y git-core
+
+# we need to get git-core in advance, otherwise we can't download the script (SEE INSTRUCTIONS).
+# but, if you've gotten the code onto your machine withoug git'ing it, then either uncomment the line below
+# or simply run it your self ("sudo apt-get install git-core")
+#
+# echo $password | sudo -S apt-get install -y git-core
+
 echo $password | sudo -S apt-get update
-echo $password | sudo -S apt-get install -y git-core build-essential libssl-dev libboost-all-dev libdb5.1-dev libdb5.1++-dev libgtk2.0-dev
+echo $password | sudo -S apt-get install -y build-essential libssl-dev libboost-all-dev libdb5.1-dev libdb5.1++-dev libgtk2.0-dev
 
 # need to figure out how to install and configure postfix silently. Til then, this is commented out.
 #
