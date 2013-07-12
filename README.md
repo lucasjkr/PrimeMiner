@@ -33,6 +33,9 @@ Get the git software, download and run:
 If you like this, feel free to donate to me at any of the following:
 
 XPM: ATPXxYLs7ErFTtibVbtLxhiP4vnivvgfsg
+
 PPC: PWLX6QYiLLZ2KbubBhg5KqYsGSYtM5QxND
-LTC: LcBsFaanYuuiRX9uTeRSwqHNcN3wf8WdRR
+
+LTC: LcBsFaanYuuiRX9uTeRSwqHNcN3wf8WdR
+
 BTC: 13xMr3NqMGZmZm1c7MEsHFDHgNs5VqMh1e
