@@ -50,8 +50,7 @@ chmod 600 $HOME/.primecoin/primecoin.conf
 
 primecoind --daemon
 
-# primecoind -printtoconsole
-
 watch 'primecoind getmininginfo'
 
-#watch 'primecoind getinfo'
+# primecoind -printtoconsole
+# watch 'primecoind getinfo'
